@@ -13,9 +13,8 @@
     }
 }
 
-body {
-    height: 170vh;
-}
+
+
 a {
     text-decoration: none;
     color: #ffff;
@@ -104,9 +103,10 @@ nav {
     background-color: #000000; /* สีพื้นหลังเพื่อดูได้ง่าย */
     width: 100%;
     padding: 20px;
-    margin-top: 40px; 
-    display: block; 
+    margin-top: 50px; 
+    display: none; 
     position: fixed;
+    z-index: 10;
 
     form {
         width: 100%;

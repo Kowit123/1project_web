@@ -28,6 +28,7 @@ function handleResize() {
   const width = window.innerWidth;
 
   if (width > 672) {
+    let mobilenav = document.getElementById("mobilenav");
     mobilenav.style.display = 'none'; // ธีมสำหรับหน้าจอเล็ก
   }
 }
