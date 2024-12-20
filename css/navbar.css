@@ -25,7 +25,7 @@ a {
 nav {
 
     background-color: black;
-    height: 60px;
+    height: 80px;
     width: 100%;
     color: rgb(255, 255, 255);
     display: flex;
@@ -102,7 +102,7 @@ nav {
 .mobile-nav {
     background-color: #000000; /* สีพื้นหลังเพื่อดูได้ง่าย */
     width: 100%;
-    padding: 20px;
+    padding: 0px;
     margin-top: 50px; 
     display: none; 
     position: fixed;
