@@ -121,12 +121,6 @@ nav {
     ul {
         margin-left: 10%;
     }
-
-
-
-    @media (min-width: 673px){
-        display: none;      
-    }
 }
 
 
