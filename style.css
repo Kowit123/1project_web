@@ -13,6 +13,9 @@
     }
 }
 
+body {
+    height: 170vh;
+}
 a {
     text-decoration: none;
     color: #ffff;
@@ -29,11 +32,20 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    position: absolute;
+    position: fixed;
+    top: 0; /* ระบุระยะจากด้านบน */
+    z-index: 10; /* เพิ่มลำดับความสำคัญ */
+
+
+    .logo {
+        @media (max-width: 673px){
+            margin-left: 10%;
+        }
+    }
 
     .menu {
 
-        @media (max-width: 812px) {
+        @media (max-width: 673px) {
             display: none;
         }
 
@@ -47,7 +59,7 @@ nav {
             margin: 0 20px;
         }
 
-        @media (max-width: 812px) {
+        @media (max-width: 673px) {
             display: none;
         }
 
@@ -75,6 +87,47 @@ nav {
       .change .bar3 {
         transform: translate(0, -11px) rotate(45deg);
       }
+    .hamburger-icon {
+        @media (min-width: 673px) {
+            display: none;
+        }
+        @media (max-width: 673px) {
+            margin-right: 8%;
+            margin-left: auto;
+            
+        }
+    }
 
 }
+
+.mobile-nav {
+    background-color: #000000; /* สีพื้นหลังเพื่อดูได้ง่าย */
+    width: 100%;
+    padding: 20px;
+    margin-top: 40px; 
+    display: block; 
+    position: fixed;
+
+    form {
+        width: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+
+        input {
+            width: 80%;
+        }
+    }
+
+    ul {
+        margin-left: 10%;
+    }
+
+
+
+    @media (min-width: 673px){
+        display: none;      
+    }
+}
+
+
 

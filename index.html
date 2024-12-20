@@ -4,39 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="scripts.js">
     <title>Myweb</title>
 </head>
 <body>
     <nav>
-        <div class="logo">logo</div>
-        <div class="menu">
-            <ul>
-                <li><a href="#">เสื้อยืด</a></li>
-                <li><a href="#">กางเกง</a></li>
-                <li><a href="#">รองเท้า</a></li>
-            </ul>
-        </div>
-        <div class="nav-right">
-            <div class="search">
-                <form action="">
-                    <input type="text" placeholder="ค้นหา">
-                    <button type="submit">search</button>
-                </form>
-            </div>
-            <div class="acount-cart">
+            <div class="logo">logo</div>
+            <div class="menu">
                 <ul>
-                    <li><a href="#">account</a></li>
-                    <li><a href="#">cart</a></li>
+                    <li><a href="#">เสื้อยืด</a></li>
+                    <li><a href="#">กางเกง</a></li>
+                    <li><a href="#">รองเท้า</a></li>
                 </ul>
             </div>
-        </div>
-        <div class="hamburger-icon" onclick="toggleHamburgerIcon(this)">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-          </div>   
+            <div class="nav-right">
+                <div class="search">
+                    <form action="">
+                        <input type="text" placeholder="ค้นหา">
+                        <button type="submit">search</button>
+                    </form>
+                </div>
+                <div class="acount-cart">
+                    <ul>
+                        <li><a href="#">account</a></li>
+                        <li><a href="#">cart</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="hamburger-icon" id="hamburgericon" onclick="toggleHamburgerIcon(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>                   
     </nav>
-    <script src="script.js"></script>   
+     <script src="script.js"></script>   
+
+     <ul class="mobile-nav" id="mobilenav">
+        <form action="">
+            <input type="text" placeholder="ค้นหา">
+            <button type="submit">search</button>
+        </form>
+        <li><a href="#">เสื้อยืด</a></li>
+        <li><a href="#">กางเกง</a></li>
+        <li><a href="#">รองเท้า</a></li>
+    </ul>
 </body>
 </html>
