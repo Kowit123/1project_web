@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav {
+    background-color: black;
+    height: 60px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+
+    .logo {
+        margin: 150px;
+    }
+    .cart {
+        margin: 0 150px 0 40px;
+    }
+    .menu {
+        justify-content: space-between;
+        margin: 0 70px ;
+        ul {
+            display: flex;
+            li {
+                margin: 20px;
+                width: 48px;
+                list-style: none;
+            }
+        }
+    }
+    .search {
+        margin: 0 50px 0 250px;
+
+    }
+}
+
