@@ -47,6 +47,14 @@ nav {
         @media (max-width: 673px) {
             display: none;
         }
+        li:hover {
+            scale: 1.2;
+            text-shadow: 0px 0px 30px rgb(255, 255, 255);
+        }
+        li:active {
+            scale: 0.9;
+            text-shadow: 0px 0px 30px rgb(255, 255, 255);
+        }
 
     }
 
@@ -60,6 +68,15 @@ nav {
 
         @media (max-width: 673px) {
             display: none;
+        }
+
+        li:hover {
+            scale: 1.2;
+            text-shadow: 0px 0px 30px rgb(255, 255, 255);
+        }
+        li:active {
+            scale: 0.9;
+            text-shadow: 0px 0px 30px rgb(255, 255, 255);
         }
 
     }
@@ -103,7 +120,7 @@ nav {
     background-color: #000000; /* สีพื้นหลังเพื่อดูได้ง่าย */
     width: 100%;
     padding: 0px;
-    margin-top: 50px; 
+    margin-top: 0px; 
     display: none; 
     position: fixed;
     z-index: 10;
@@ -120,8 +137,23 @@ nav {
 
     ul {
         margin-left: 10%;
+
+
     }
+
+        
+    li:hover{         
+        text-shadow: 0px 0px 25px #ffffff;
+    }
+    li:active{
+        a{
+            color: #000000;
+        }
+    }
+
+
 }
+
 
 
 

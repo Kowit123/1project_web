@@ -13,9 +13,10 @@ img {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 100%;
   position: relative;
-  margin: 80px auto auto auto;
+  margin: 110px 6.04% auto 6.04%;
+
 }
 
 /* Next & previous buttons */
