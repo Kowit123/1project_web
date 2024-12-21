@@ -38,5 +38,21 @@ window.addEventListener('resize', handleResize);
 // เรียกฟังก์ชันครั้งแรกเพื่อกำหนดธีมตอนโหลด
 handleResize();
 
+//totop
+let backtotop = document.getElementById("backtotop");
+function scrollfunction(){
+  if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000){
+    backtotop.style.display = "block";
+  }else{
+    backtotop.style.display = "none";
+  }
+}
 
+function totop(){
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
 
+window.onscroll = function() {
+  scrollfunction();
+}

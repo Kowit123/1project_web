@@ -77,8 +77,9 @@ html {
     cursor: pointer;
     width: 100%;
     margin-bottom: 15px;
+    border-radius: 10px;
   }
   
-  .button:hover {
-    background-color: #555;
+  .button:active {
+    scale: 0.9;
   }
