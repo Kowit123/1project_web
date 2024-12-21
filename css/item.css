@@ -55,9 +55,14 @@ html {
     display: table;
   }
 
+  h2 {
+    margin-top: 5px;
+  }
+
   .price {
     margin-top: 20px;
     font-size: large;
+    font-weight: bolder;
     color: chocolate;
   }
   

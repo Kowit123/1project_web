@@ -13,13 +13,10 @@
     }
 }
 
-
-
 a {
     text-decoration: none;
     color: #ffff;
 }
-
 
 
 nav {
@@ -119,26 +116,24 @@ nav {
 .mobile-nav {
     background-color: #000000; /* สีพื้นหลังเพื่อดูได้ง่าย */
     width: 100%;
-    padding: 0px;
-    margin-top: 0px; 
     display: none; 
     position: fixed;
     z-index: 10;
+    top: 70px;
 
     form {
         width: 100%;
         margin-left: 5%;
         margin-right: 5%;
+        margin-top: 3%;
 
         input {
-            width: 80%;
+            width: 76%;
         }
     }
 
     ul {
         margin-left: 10%;
-
-
     }
 
         
@@ -154,6 +149,9 @@ nav {
 
 }
 
+header{
+    display: flex;
+}
 
 
 
