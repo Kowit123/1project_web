@@ -17,8 +17,8 @@ html {
   }
   
   .row {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
     
   }
 
@@ -30,6 +30,12 @@ html {
   }
   
   @media screen and (max-width: 650px) {
+    
+    .row {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+
     .column {
       width: 50%;
       display: block;
